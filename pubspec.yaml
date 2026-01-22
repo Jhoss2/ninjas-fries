@@ -1,0 +1,24 @@
+name: ninjas_fries
+description: Application de commande pour Ninja's Fries
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  shared_preferences: ^2.2.2
+  image_picker: ^1.0.7
+  flutter_blue_plus: ^1.31.8
+  permission_handler: ^11.2.0
+  share_plus: ^7.2.1
+  path_provider: ^2.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
